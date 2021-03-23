@@ -1,0 +1,8 @@
+# docker-compose up -d
+version: '3'
+services:
+  database:
+    image: 'mongo'
+    container_name: 'mongodb'
+    ports:
+    - '27017:27017'
